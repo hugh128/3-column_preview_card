@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
-/* font-family: 'Big Shoulders Display', cursive;
-font-family: 'Lexend Deca', sans-serif; */
 
 :root {
     /* Colors primary */
@@ -9,12 +7,108 @@ font-family: 'Lexend Deca', sans-serif; */
     --very-dark-cyan: hsl(179, 100%, 13%);
 
     /* Colors neutral */
-    --transparent-white: sla(0, 0%, 100%, 0.75);
-    --very-light-gra: hsl(0, 0%, 95%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
 
+body {
+    font-size: 15px;
+    background: var(--very-light-gray);
+}
 
+/* Container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+/* Card */
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 100%;
+    max-width: 900px;
+}
+
+.card__items {
+    justify-items: start;
+    align-items: center;
+    padding: 50px 45px;
+}
+
+.card__items:nth-of-type(1) {
+    background: var(--bright-orange);
+    border-radius: 10px 0 0 10px;
+}
+
+.card__items:nth-of-type(2) {
+    background: var(--dark-cyan);
+}
+
+.card__items:nth-of-type(3) {
+    background: var(--very-dark-cyan);
+    border-radius: 0 10px 10px 0;
+}
+
+.card__title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.4rem;
+    color: var(--very-light-gray);
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+
+.card__paragraph {
+    color: var(--transparent-white);
+    line-height: 1.6;
+    padding-bottom: 80px;
+}
+
+.card__button {
+    background: var(--very-light-gray);
+    padding: 15px 30px;
+    border: 2px solid var(--very-light-gray);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+}
+
+.card__button--orange {
+    color: var(--bright-orange);
+}
+
+.card__button--orange:hover {
+    color: var(--very-light-gray);
+    background: var(--bright-orange);
+}
+
+.card__button--dark-cyan {
+    color: var(--dark-cyan);
+}
+
+.card__button--dark-cyan:hover {
+    color: var(--very-light-gray);
+    background: var(--dark-cyan);
+}
+
+.card__button--darker-cyan {
+    color: var(--very-dark-cyan);
+}
+
+.card__button--darker-cyan:hover {
+    color: var(--very-light-gray);
+    background: var(--very-dark-cyan);
+}
 
 /* Attribution */
 
