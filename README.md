@@ -77,7 +77,7 @@ I will definitely continue to delve into CSS Grid because it allows creating dyn
 
 ### Useful resources
 
-- [Example resource 1](https://css-tricks.com/snippets/css/complete-guide-grid/#fluid-columns-snippet) - This page helped me better understand CSS Grid concepts and helped me create fluid width columns. An amazing page
+- [CSS-TRICKS](https://css-tricks.com/snippets/css/complete-guide-grid/#fluid-columns-snippet) - This page helped me better understand CSS Grid concepts and helped me create fluid width columns. An amazing page.
 
 ## Author
 
