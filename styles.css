@@ -42,8 +42,6 @@ body {
 }
 
 .card__items {
-    justify-items: start;
-    align-items: center;
     padding: 50px 45px;
 }
 
