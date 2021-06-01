@@ -27,16 +27,15 @@ Users should be able to:
 
 ### Screenshot
 
-- Desktop version.
+- Desktop version
 ![](./images/screenshots/screenshot_desktop.png)
-
-- Mobile version.
+- Mobile version
 ![](./images/screenshots/screenshot_mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/hugh128/3-column_preview_card)
+- Live Site URL: (https://hugh128.github.io/3-column_preview_card/)
 
 ## My process
 
