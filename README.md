@@ -29,7 +29,7 @@ Users should be able to:
 
 - Desktop version
 ![](./images/screenshots/screenshot_desktop.png)
-- Mobile version
+
 ![](./images/screenshots/screenshot_mobile.png)
 
 ### Links
