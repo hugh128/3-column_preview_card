@@ -45,8 +45,7 @@ To create the three columns in the second container I use CSS Grid. Using CSS Gr
 
 The second step was to create a container for each of the three cards, for this purpose I used an Article element. Each of the cards has an image, a title, a paragraph and a button that when the user passes the mouse over the button a pointer appears and changes the color of the button. To set all these elements in the position that I wanted I used padding.
 
-The last thing I did was use media query to prevent the button of the cards from going down when the paragraph of the
-card used more lines at least up to a max-width of 862px (I'm not sure which is the best way to solve this problem), configure the radius of the borders and configure el margen de la tarjeta en la versión móvil para que se parezca al ejemplo.
+And the last thing I did, was use absolute position on the buttons to prevent them from getting misaligned when the card paragraph occupied more lines.
 
 ### Built with
 
