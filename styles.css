@@ -42,6 +42,7 @@ body {
 }
 
 .card__items {
+    position: relative;
     padding: 50px 45px;
 }
 
@@ -70,10 +71,13 @@ body {
 .card__paragraph {
     color: var(--transparent-white);
     line-height: 1.6;
-    padding-bottom: 80px;
+    padding-bottom: 130px;
 }
 
 .card__button {
+    position: absolute;
+    bottom: 50px;
+    left: 45px;
     background: var(--very-light-gray);
     padding: 15px 30px;
     border: 2px solid var(--very-light-gray);
@@ -113,36 +117,6 @@ body {
 
 /* Responsive design */
 
-@media screen and (max-width: 989px) {
-    .card__items:nth-of-type(3) .card__paragraph {
-        padding-bottom: 56px;
-    }
-}
-
-@media screen and (max-width: 970px) {
-    .card__items:nth-of-type(1) .card__paragraph {
-        padding-bottom: 56px;
-    }
-}
-
-@media screen and (max-width: 961px) {
-    .card__items:nth-of-type(2) .card__paragraph {
-        padding-bottom: 56px;
-    }
-}
-
-@media screen and (max-width: 870px) {
-    .card__items:nth-of-type(1) .card__paragraph {
-        padding-bottom: 32px;
-    }
-}
-
-@media screen and (max-width: 866px) {
-    .card__items:nth-of-type(3) .card__paragraph {
-        padding-bottom: 32px;
-    }
-}
-
 @media screen and (max-width: 862px) {
     .container {
         margin: 6.5%;
@@ -160,10 +134,6 @@ body {
     .card__items:nth-of-type(3) {
         border-radius: 0 0 10px 10px;
     }
-
-    .card__items:nth-of-type(2) .card__paragraph {
-        padding-bottom: 32px;
-    }
 }
 
 @media screen and (max-width: 574px) {
@@ -177,5 +147,9 @@ body {
 
     .card__items:nth-of-type(2) {
         border-radius: 0;
+    }
+
+    .card__paragraph {
+        padding-bottom: 82px;
     }
 }
